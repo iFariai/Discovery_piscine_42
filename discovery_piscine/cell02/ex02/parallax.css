@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+}
+
+.parallax1 {
+  background-image: url('https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg');
+}
+
+.parallax2 {
+  background-image: url('https://images.pexels.com/photos/7988079/pexels-photo-7988079.jpeg');
+}
+
+.content {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  font-size: 1.5em;
+}

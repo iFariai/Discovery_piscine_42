@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.profile-card {
+  background-color: #b36047da;
+
+  color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 320px;
+}
+
+.profile-card h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* elimina espaço entre células */
+  border: none; /* tabela invisível */
+}
+
+td {
+  border: none; /* invisível */
+  padding: 5px 0;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.login {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+  font-style: italic;
+  color: #ccc;
+}
+
+.social-icons {
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.contact-button {
+  background-color: #0077b5;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #005983;
+}

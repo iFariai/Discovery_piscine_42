@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* cv.css (para os CVs) */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.section {
+  padding: 60px 15px;
+}
+
+.profile-pic {
+  max-width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}

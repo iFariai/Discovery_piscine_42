@@ -1,0 +1,30 @@
+/* página sem margens */
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+/* tabela responsiva */
+table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+/* estilo das células */
+td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+
+/* Cores de cada celula */
+.box1 {
+  background-color: lightblue;
+}
+
+.box2 {
+  background-color: lightpink;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+#ballon {
+width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
